@@ -1,6 +1,7 @@
 This repo is a template for how to embed a ROS package ito a Docker container.
 
 xhost +
+
 docker run -it \
     --network="host" \
     --env="DISPLAY" \
